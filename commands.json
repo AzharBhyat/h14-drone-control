@@ -1,0 +1,9 @@
+  {
+    "resting_packet": "cc 5a 01 83 09 66 80 80 80 80 00 00 99 74",
+    "initial_packet": "cc 5a 01 82 02 36 b7",
+
+    "engage_motors": "cc 5a 01 83 09 66 80 80 bf 80 00 3f 99 74",
+    "disengage_motors": "cc 5a 01 83 09 66 80 80 17 89 00 9e 99 74",
+    "forward_thrust": "cc 5a 01 83 09 66 80 80 fa 86 00 7c 99 74"
+  }
+  
