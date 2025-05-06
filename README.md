@@ -31,12 +31,7 @@ The preceding code spins up the drone motor for 2 seconds, applies forward thrus
 
 **Commands JSON file:**
 
-   The project includes a `commands.json` file that defines the drone's control commands. Make sure this file is in the root of the repository for the controller to function properly. You can experiment yourself and add more commands as you wish for increased functionality.
----
-
-## Commands
-
-The `commands.json` file contains various commands that can be sent to the drone. Each command is a byte string representing a specific action. Here’s an example of how a command is defined:
+   The project includes a `commands.json` file that defines the drone's control commands. The `commands.json` file contains various commands that can be sent to the drone. Each command is a byte string representing a specific action. Here’s an example of how a command is defined:
 
 ```json
 {
@@ -45,15 +40,8 @@ The `commands.json` file contains various commands that can be sent to the drone
   "resting_packet": "cc 5a 01 82 36 b7"
 }
 ```
-
-The key is the **name** of the command, and the value is the **byte sequence** representing the action.
-
----
-
-
-This project is released for educational purposes only. You are free to experiment with the code, but please ensure that you follow all safety guidelines while using the drone.
-
----
+    The key is the **name** of the command, and the value is the **byte sequence** representing the action.
+    You may edit this to add more functionality.
 
 ### 📝 Notes:
 
