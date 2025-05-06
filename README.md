@@ -40,12 +40,13 @@ The preceding code spins up the drone motor for 2 seconds, applies forward thrus
   "resting_packet": "cc 5a 01 82 36 b7"
 }
 ```
-    The key is the **name** of the command, and the value is the **byte sequence** representing the action.
-    You may edit this to add more functionality.
+The key is the **name** of the command, and the value is the **byte sequence** representing the action.
+You may edit this to add more functionality.
 
 ### 📝 Notes:
 
 * The drone's control mechanism is based on a UDP socket communication. The controller sends packets to the drone's IP, and the drone responds accordingly.
 * Ensure that the drone is powered on and connected to the same wifi network as the your pc.
+
 
 ---
