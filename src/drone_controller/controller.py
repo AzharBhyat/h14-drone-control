@@ -1,7 +1,7 @@
 import socket
 import time
 import threading
-from utils import seconds_to_reps, load_commands_dict
+from .utils import load_commands_dict
 
 class DroneController:
     def __init__(self, commands_path="commands.json", controller_port=7070, command_port=7060,

@@ -1,6 +1,6 @@
-import drone_controller
+from drone_controller import DroneController
 
-controller = drone_controller.DroneController()
+controller = DroneController()
 controller.start()
 
 controller.run_command("engage_motors", 2)
