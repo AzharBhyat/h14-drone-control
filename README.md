@@ -35,13 +35,16 @@ The preceding code spins up the drone motor for 2 seconds, applies forward thrus
 
 ```json
 {
-  "fly_forward": "cc 5a 01 83 09 66 80 80",
-  "fly_backward": "cc 5a 01 83 09 66 80 81",
-  "resting_packet": "cc 5a 01 82 36 b7"
+    "resting_packet": "cc 5a 01 83 09 66 80 80 80 80 00 00 99 74",
+    
+    "engage_motors": "cc 5a 01 83 09 66 80 80 bf 80 00 3f 99 74",
+
+    "forward_thrust": "cc 5a 01 83 09 66 80 80 fa 86 00 7c 99 74"
 }
 ```
-The key is the **name** of the command, and the value is the **byte sequence** representing the action.
-You may edit this to add more functionality.
+
+The key is the **name** of the command, and the value is the **byte sequence** representing the action. You can extend this with more commands to add more functionality.
+See my hackaday article on how.
 
 ### 📝 Notes:
 
