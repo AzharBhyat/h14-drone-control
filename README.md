@@ -32,19 +32,6 @@ The preceding code spins up the drone motor for 2 seconds, applies forward thrus
 **Commands JSON file:**
 
    The project includes a `commands.json` file that defines the drone's control commands. Make sure this file is in the root of the repository for the controller to function properly. You can experiment yourself and add more commands as you wish for increased functionality.
-
-1. **Run the controller**:
-
-   ```bash
-   python main.py
-   ```
-
-   This will initialize the drone controller and start the loop for sending commands.
-
-2. **Control the drone**:
-
-   To run a specific command, call the `run_command` function. For example, to fly the drone forward use "forward_thrust", you can execute the corresponding command (ensure it's available in `commands.json`).
-
 ---
 
 ## Commands
