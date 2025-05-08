@@ -44,7 +44,7 @@ The preceding code spins up the drone motor for 2 seconds, applies forward thrus
 ```
 
 The key is the **name** of the command, and the value is the **byte sequence** representing the action. You can extend this with more commands to add more functionality.
-See my hackaday article on how.
+https://medium.com/@bhyatazhar14/python-powered-toy-drone-3f83583d29da.
 
 ### 📝 Notes:
 
